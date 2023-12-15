@@ -3,7 +3,7 @@ Get the best settings on Fortnite for low-end laptops and pc's!
 
 # Method 1 (Powershell)
 - cd AppData\Local\FortniteGame\Saved\Config\WindowsClient
-- del GameUserSettings.ini
+- ren GameUserSettings.ini GameUserSettings_original.ini
 - curl -L -o GameUserSettings.ini "https://drev.uk.to/fn/tweaks/GameUserSettings.ini"
 - start GameUserSettings.ini
 
